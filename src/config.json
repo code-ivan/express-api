@@ -1,0 +1,8 @@
+{
+	"port": 8181,
+	"bodyLimit": "100kb",
+	"corsHeaders": [""],
+	"connectionString":"mongodb://[USERNAME]:[PASSWORD]@cluster0-shard-00-00-tzuwz.mongodb.net:27017,cluster0-shard-00-01-tzuwz.mongodb.net:27017,cluster0-shard-00-02-tzuwz.mongodb.net:27017/[COLLECTION]?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin",
+	"secretToken": "[GENERATE_SECRET_TOKEN]",
+	"token": "[GENERATE_TOKEN]"	
+}
